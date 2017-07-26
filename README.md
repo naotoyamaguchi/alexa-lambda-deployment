@@ -42,10 +42,10 @@ To use an existing role, select the role under `Use existing role`.
 <br>
 ### Defining a New Role for the Function
 
-The role specifies the AWS resources your function can access. To create a new role while configuring your function:
-For Role (under Lambda function handler and role), select Create new role from template(s).
-Enter the Role Name.
-From the Policy templates list, select Simple Microservice permissions.
+- The role specifies the AWS resources your function can access. To create a new role while configuring your function:
+1. For Role (under Lambda function handler and role), select Create new role from template(s).
+2. Enter the Role Name.
+3. From the Policy templates list, select Simple Microservice permissions.
 
 #### Make note of the Amazon Resource Name (ARN) for your new Lambda function. The ARN is displayed in the upper-right corner of the function page. COPY this somewhere, we will need it on one of the final steps.
 

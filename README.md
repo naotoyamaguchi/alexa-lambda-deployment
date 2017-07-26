@@ -46,7 +46,7 @@ For Role (under Lambda function handler and role), select Create new role from t
 Enter the Role Name.
 From the Policy templates list, select Simple Microservice permissions.
 
-
+#### Make note of the Amazon Resource Name (ARN) for your new Lambda function. The ARN is displayed in the upper-right corner of the function page.
 
 
 

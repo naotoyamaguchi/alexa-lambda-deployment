@@ -1,7 +1,30 @@
 Alexa Lambda Deployment
 ===============
 
-Once you set up a running Hapi server, you are then able to define routes using a method off of the instance of the `Hapi.Server()` called `route`.
+To deploy a Node.js sample as a Lambda function, you first need to create a zip file containing the .js files provided in the sample. If the project uses the Alexa Skills Kit SDK for Node.js (which we may have), you need to also include these dependencies in your zip file. If you have not already installed Node.js and NPM, follow these steps first.
+
+In a terminal or command line, navigate to the `src` directory for the sample and enter this command:
+bash npm install --save alexa-sdk
+This installs a node_modules directory containing the SDK dependencies.
+
+Select all the contents of the src folder, and create a zip file.
+The zip should contain the files, but not include the src folder. The index.js file must be at the root of the zip. The zip should include the node_modules directory.
+
+
+
+
+To create your new Lambda function and to upload the code:
+
+Once you have either a zip containing the Node.js code, do the following:
+- Log in to the AWS Management Console and navigate to AWS Lambda.
+-Create a new Lambda function in the US East (N. Virginia) or EU (Ireland) region.
+- To quickly set up one of the blueprint samples, select the sample from the list of blueprints. The following samples are available as blueprints:
+alexa-skill-kit-sdk-factskill
+alexa-skill-kit-sdk-howtoskill
+alexa-skill-kit-sdk-triviaskill
+alexa-skills-kit-color-expert
+Selecting one of these blueprints automatically imports the code into the Lambda console.
+- Configure the new function with the following settings, depending on whether your are deploying a Node.js or Java sample:
 
 ```javascript
 const Hapi = require('hapi');

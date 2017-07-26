@@ -10,6 +10,7 @@ This installs a node_modules directory containing the SDK dependencies.
 Select all the contents of the src folder, and create a zip file.
 The zip should contain the files, but not include the src folder. The index.js file must be at the root of the zip. The zip should include the node_modules directory.
 
+<br>
 
 ## Creating your new Lambda function and uploading the code.
 
@@ -48,6 +49,8 @@ To use an existing role, select the role under `Use existing role`.
 3. From the Policy templates list, select Simple Microservice permissions.
 
 #### Make note of the Amazon Resource Name (ARN) for your new Lambda function. The ARN is displayed in the upper-right corner of the function page. COPY this somewhere, we will need it on one of the final steps.
+
+<br>
 
 ## Creating a New Skill on the Developer Portal
 

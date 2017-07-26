@@ -62,8 +62,8 @@ From the Policy templates list, select Simple Microservice permissions.
 | Invocation | Name	any valid invocation name. |
 | Name |	Any valid name. |
 | Endpoint |	Select the AWS Lambda ARN (Amazon Resource Name) option, then either North America or Europe and enter the ARN for your function. |
-| Interaction Model |	Each sample includes an interaction model in the speechAssets folder for the sample. <br> Copy the JSON from IntentSchema.json into the Intent Schema box and copy the text from SampleUtterances.txt into the Sample Utterances box.
-<br>
+| Interaction Model |	Each sample includes an interaction model in the speechAssets folder for the sample. <br><br>Copy the JSON from IntentSchema.json into the Intent Schema box and copy the text from SampleUtterances.txt into the Sample Utterances box.
+<br><br>
 For details about defining the interaction model, see Define the Interaction Model in JSON and Text. |
 
 Copy the JSON from IntentSchema.json into the Intent Schema box and copy the text from SampleUtterances.txt into the Sample Utterances box.

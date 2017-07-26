@@ -1,7 +1,7 @@
 Alexa Lambda Deployment
 ===============
 
-To deploy a Node.js sample as a Lambda function, you first need to create a zip file containing the .js files provided in the sample. If the project uses the Alexa Skills Kit SDK for Node.js (which we may have), you need to also include these dependencies in your zip file. If you have not already installed Node.js and NPM, follow these steps first.
+To deploy a Node.js sample as a Lambda function, you first need to create a zip file containing the .js files provided in the sample. If the project uses the Alexa Skills Kit SDK for Node.js (which we may have), you need to also include these dependencies in your zip file.
 
 In a terminal or command line, navigate to the `src` directory for the sample and enter this command:
 bash npm install --save alexa-sdk
@@ -14,9 +14,9 @@ The zip should contain the files, but not include the src folder. The index.js f
 ## Creating your new Lambda function and uploading the code.
 
 Once you have either a zip containing the Node.js code, do the following:
-- Log in to the AWS Management Console and navigate to AWS Lambda.
--Create a new Lambda function in the US East (N. Virginia) or EU (Ireland) region.
-- To quickly set up one of the blueprint samples, select the sample from the list of blueprints. The following samples are available as blueprints:
+1. Log in to the AWS Management Console and navigate to AWS Lambda.
+2. Create a new Lambda function in the US East (N. Virginia) or EU (Ireland) region.
+3. To quickly set up one of the blueprint samples, select the sample from the list of blueprints. The following samples are available as blueprints:
 alexa-skill-kit-sdk-factskill
 alexa-skill-kit-sdk-howtoskill
 alexa-skill-kit-sdk-triviaskill
@@ -33,12 +33,12 @@ Selecting one of these blueprints automatically imports the code into the Lambda
 | Lambda Function Code  | 	Select the Upload a .ZIP file option and upload the zip file you created. If you selected one of the blueprints (such as alexa-skill-kit-sdk-factskill), the code is already filled in.|
 | Handler       |  index.handler |
 
-## Select the Role for the function. This defines the AWS resources the function can access.
+### Select the Role for the function. This defines the AWS resources the function can access.
 
 To use an existing role, select the role under `Use existing role`.
 <br>
 <br>
-**otherwise...**
+**otherwise, to create a new role..**
 <br>
 ### Defining a New Role for the Function
 
@@ -47,9 +47,9 @@ For Role (under Lambda function handler and role), select Create new role from t
 Enter the Role Name.
 From the Policy templates list, select Simple Microservice permissions.
 
-#### Make note of the Amazon Resource Name (ARN) for your new Lambda function. The ARN is displayed in the upper-right corner of the function page.
+#### Make note of the Amazon Resource Name (ARN) for your new Lambda function. The ARN is displayed in the upper-right corner of the function page. COPY this somewhere, we will need it on one of the final steps.
 
-### Creating a New Skill for the Sample on the Developer Portal
+## Creating a New Skill on the Developer Portal
 
 - Register a new Alexa skill on the developer portal.
 - For details, see Registering and Managing Custom Skills in the Developer Portal.
@@ -91,6 +91,7 @@ From the Policy templates list, select Simple Microservice permissions.
 <br>
 <br>
 <br>
+https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial
 <br>
 <br>
 <br>

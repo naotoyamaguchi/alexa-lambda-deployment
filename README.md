@@ -17,10 +17,10 @@ Once you have either a zip containing the Node.js code, do the following:
 1. Log in to the AWS Management Console and navigate to AWS Lambda.
 2. Create a new Lambda function in the US East (N. Virginia) or EU (Ireland) region.
 3. To quickly set up one of the blueprint samples, select the sample from the list of blueprints. The following samples are available as blueprints:
-..* alexa-skill-kit-sdk-factskill
-..* alexa-skill-kit-sdk-howtoskill
-..* alexa-skill-kit-sdk-triviaskill
-..* alexa-skills-kit-color-expert
+  * alexa-skill-kit-sdk-factskill
+  * alexa-skill-kit-sdk-howtoskill
+  * alexa-skill-kit-sdk-triviaskill
+  * alexa-skills-kit-color-expert
 Selecting one of these blueprints automatically imports the code into the Lambda console.
 4. Configure the new function with the following settings, depending on whether your are deploying a Node.js or Java sample:
 

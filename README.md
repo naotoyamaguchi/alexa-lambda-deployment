@@ -59,7 +59,7 @@ From the Policy templates list, select Simple Microservice permissions.
 
 | Setting |	Value |
 | ------- | ----- |
-| Invocation Name	Any valid invocation name. |
+| Invocation | Name	Any valid invocation name. |
 | Name |	Any valid name. |
 | Endpoint |	Select the AWS Lambda ARN (Amazon Resource Name) option, then either North America or Europe and enter the ARN for your function. |
 | Interaction Model |	Each sample includes an interaction model in the speechAssets folder for the sample. |

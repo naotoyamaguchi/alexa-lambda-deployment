@@ -35,9 +35,10 @@ Selecting one of these blueprints automatically imports the code into the Lambda
 
 ## Select the Role for the function. This defines the AWS resources the function can access.
 
-To use an existing role, select the role under Use existing role.
+To use an existing role, select the role under `Use existing role`.
 <br>
-otherwise...
+<br>
+**otherwise...**
 <br>
 ### Defining a New Role for the Function
 

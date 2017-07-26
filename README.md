@@ -26,6 +26,14 @@ alexa-skills-kit-color-expert
 Selecting one of these blueprints automatically imports the code into the Lambda console.
 - Configure the new function with the following settings, depending on whether your are deploying a Node.js or Java sample:
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Triggers      | Content Cell  |
+| Name          | Content Cell  |
+| Description   | Content Cell  |
+| Runtime       | Content Cell  |
+| Lambda Func.  |.Cgsagsadhfdsjhfdjdjd |
+
 ```javascript
 const Hapi = require('hapi');
 const server = new Hapi.Server();

@@ -35,6 +35,34 @@ Selecting one of these blueprints automatically imports the code into the Lambda
 
 ## Select the Role for the function. This defines the AWS resources the function can access.
 
+To use an existing role, select the role under Use existing role.
+<br>
+otherwise...
+<br>
+### Defining a New Role for the Function
+
+The role specifies the AWS resources your function can access. To create a new role while configuring your function:
+For Role (under Lambda function handler and role), select Create new role from template(s).
+Enter the Role Name.
+From the Policy templates list, select Simple Microservice permissions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```javascript
 const Hapi = require('hapi');
 const server = new Hapi.Server();

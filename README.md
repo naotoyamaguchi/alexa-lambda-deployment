@@ -11,9 +11,7 @@ Select all the contents of the src folder, and create a zip file.
 The zip should contain the files, but not include the src folder. The index.js file must be at the root of the zip. The zip should include the node_modules directory.
 
 
-
-
-To create your new Lambda function and to upload the code:
+## Creating your new Lambda function and uploading the code.
 
 Once you have either a zip containing the Node.js code, do the following:
 - Log in to the AWS Management Console and navigate to AWS Lambda.
@@ -34,6 +32,8 @@ Selecting one of these blueprints automatically imports the code into the Lambda
 | Runtime       | Node.js  |
 | Lambda Function Code  | 	Select the Upload a .ZIP file option and upload the zip file you created. If you selected one of the blueprints (such as alexa-skill-kit-sdk-factskill), the code is already filled in.|
 | Handler       |  index.handler |
+
+## Select the Role for the function. This defines the AWS resources the function can access.
 
 ```javascript
 const Hapi = require('hapi');

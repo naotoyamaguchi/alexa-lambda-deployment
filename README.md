@@ -4,7 +4,7 @@ Alexa Lambda Deployment
 To deploy a Node.js sample as a Lambda function, you first need to create a zip file containing the .js files provided in the sample. If the project uses the Alexa Skills Kit SDK for Node.js (which we may have), you need to also include these dependencies in your zip file.
 
 In a terminal or command line, navigate to the `src` directory for the sample and enter this command:
-bash npm install --save alexa-sdk
+`npm install --save alexa-sdk`
 This installs a node_modules directory containing the SDK dependencies.
 
 Select all the contents of the src folder, and create a zip file.

@@ -26,13 +26,14 @@ alexa-skills-kit-color-expert
 Selecting one of these blueprints automatically imports the code into the Lambda console.
 - Configure the new function with the following settings, depending on whether your are deploying a Node.js or Java sample:
 
-| First Header  | Second Header |
+| Setting       | Value         |
 | ------------- | ------------- |
-| Triggers      | Content Cell  |
-| Name          | Content Cell  |
-| Description   | Content Cell  |
-| Runtime       | Content Cell  |
-| Lambda Func.  |.Cgsagsadhfdsjhfdjdjd |
+| Triggers      | Click the outlined box select Alexa Skills Kit.  |
+| Name          | A descriptive name for the function.  |
+| Description   | A description for the function.  |
+| Runtime       | Node.js  |
+| Lambda Function Code  | 	Select the Upload a .ZIP file option and upload the zip file you created. If you selected one of the blueprints (such as alexa-skill-kit-sdk-factskill), the code is already filled in.|
+| Handler       |  index.handler |
 
 ```javascript
 const Hapi = require('hapi');

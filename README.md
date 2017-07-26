@@ -49,6 +49,21 @@ From the Policy templates list, select Simple Microservice permissions.
 
 #### Make note of the Amazon Resource Name (ARN) for your new Lambda function. The ARN is displayed in the upper-right corner of the function page.
 
+### Creating a New Skill for the Sample on the Developer Portal
+
+- Register a new Alexa skill on the developer portal.
+- For details, see Registering and Managing Custom Skills in the Developer Portal.
+- Use the following information when registering the new skill:
+| Setting |	Value |
+| ------- | ----- |
+| Invocation Name	Any valid invocation name. |
+| Name |	Any valid name. |
+| Endpoint |	Select the AWS Lambda ARN (Amazon Resource Name) option, then either North America or Europe and enter the ARN for your function. |
+| Interaction Model |	Each sample includes an interaction model in the speechAssets folder for the sample. |
+
+Copy the JSON from IntentSchema.json into the Intent Schema box and copy the text from SampleUtterances.txt into the Sample Utterances box.
+
+For details about defining the interaction model, see Define the Interaction Model in JSON and Text.
 
 
 
@@ -62,8 +77,28 @@ From the Policy templates list, select Simple Microservice permissions.
 
 
 
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ```javascript
 const Hapi = require('hapi');
 const server = new Hapi.Server();
